@@ -1,0 +1,36 @@
+#clockdimensions{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png)no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #seconds{
+    position: absolute;
+    background: black;
+    transform-origin:bottom ;
+}
+#hour{
+    width: 1vw;
+    height: 12vw;
+    left: 49%;
+    top: 19.8%;
+    opacity: 0.8;
+}
+#minute{
+    width: 0.8vw;
+    height: 14vw;
+    left: 49%;
+    top: 13.9%;
+    opacity: 0.8;
+
+}
+#seconds{
+    width: 0.3vw;
+    height: 16vw;
+    left: 49%;
+    top: 11%;
+    opacity: 0.8;
+
+}
